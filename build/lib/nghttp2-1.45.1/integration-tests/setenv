@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+libdir="/home/cw1997/github/cw1997/http2-server-sample/build/lib/nghttp2-1.45.1/lib"
+if [ -d "$libdir/.libs" ]; then
+    libdir="$libdir/.libs"
+fi
+
+export CGO_CFLAGS="-I/home/cw1997/github/cw1997/http2-server-sample/lib/nghttp2-1.45.1/lib/includes -I/home/cw1997/github/cw1997/http2-server-sample/build/lib/nghttp2-1.45.1/lib/includes "
+export CGO_CPPFLAGS=""
+export CGO_LDFLAGS="-L$libdir "
+export LD_LIBRARY_PATH="$libdir"
+export GODEBUG=cgocheck=0
+"$@"

@@ -1,0 +1,55 @@
+commit 53dfaad925dc2274488dd61bb47e613a9539371a (HEAD, tag: v1.45.1, origin/v1.45.x, origin/HEAD, v1.45.x)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Update manual pages
+
+commit 2f2da110a143da9e45b59affc9eff897c57370bc
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Bump version number to 1.45.1
+
+commit 8a14435aa8e5ea1dffe67bf855f2e6b64813757e
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Fix issue that libev cannot be found with autotools under mac osx
+
+commit dbaa59908edc801a1da80d82b0c51d8ba3e94dba
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Fix compile error with libressl
+
+commit ca41f2faab169ef64fda1eaa13116bef08034c97
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Make sure that nghttp2 can be built from tar archive
+
+commit daae20d4a57408eb213e7f0095d994116872c74c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Always include optional files to EXTRA_DIST
+
+commit 6d9667dc74f6000120ab800361fcedb82338c416
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2021-09-21
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2021-09-21
+
+    Add missing cmake files to EXTRA_DIST
