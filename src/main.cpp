@@ -29,6 +29,8 @@ int main(int argc, char *argv[]) {
         res.end("hello, world\n");
     });
 
+    server.num_threads(6);
+
     if (server.listen_and_serve(ec, tls,"localhost", "8001")) {
         std::cerr << "error: " << ec.message() << std::endl;
     }
